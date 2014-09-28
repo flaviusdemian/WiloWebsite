@@ -30,7 +30,6 @@
     <Compile Include="index.php" />
     <Compile Include="masterPages\masterFooter.php" />
     <Compile Include="masterPages\masterHeader.php" />
-    <Compile Include="masterPages\masterShoppingCart.php" />
     <Compile Include="product.php" />
   </ItemGroup>
   <ItemGroup>
