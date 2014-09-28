@@ -23,7 +23,7 @@
 <body>
     <div id="sitewrapper" class="clearfix">
         <section class="user">
-        <a id="homeLink" href="/" title="acasa">
+            <a id="homeLink" href="/" title="acasa">
                 <div id="logoContainer">
                     <div id="flashLogo">
                         <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="63" height="34" style="visibility: visible;">
@@ -46,7 +46,7 @@
                                     <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
                                     <p>
                                         <a href="http://www.adobe.com/go/getflashplayer">
-                                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33"/></a>
+                                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a>
                                     </p>
                                 </div>
                                 <!--[if !IE]>-->
@@ -100,7 +100,8 @@
             ?>
         </div>
         <div id="footer">
-            <?php
-            echo $pagefootercontent;
-            ?>    
+<?php
+echo $pagefootercontent;
+?>
+
 

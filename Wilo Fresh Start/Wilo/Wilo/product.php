@@ -178,7 +178,7 @@ array_push($textModels, $textModel);
             echo "</div>";
         }?>
     </div>
-    <div class="clearfix itemImageContainer">
+   <!-- <div class="clearfix itemImageContainer">
         <img class="itemImageTable" src="<?php  echo $model->Table ?>" />
         <ul class="itemPriceList">
             <li id="firstItem"></li>
@@ -196,7 +196,7 @@ array_push($textModels, $textModel);
             }
             ?>
         </ul>
-    </div>
+    </div>-->
 </div>
 
 <?php
@@ -207,11 +207,6 @@ ob_end_clean();
 $pagetitle = "Wilo Stratos Pico";
 //Apply the template
 include("masterPages/masterHeader.php");
-
-$pagemaincontentCart = ob_get_contents();
-ob_end_clean();
-//Apply the template
-include("masterpages/masterShoppingCart.php");
 
 $pagefootercontent = ob_get_contents();
 ob_end_clean();
