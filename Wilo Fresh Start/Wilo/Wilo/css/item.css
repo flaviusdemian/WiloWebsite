@@ -1,0 +1,142 @@
+﻿body {
+}
+
+.itemWrapper {
+}
+
+    .itemWrapper p {
+        line-height: 18px;
+    }
+
+    .itemWrapper h2 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 auto;
+        padding: 25px 0 0 20px;
+        width: 200px;
+    }
+
+.itemImage {
+    margin-left: 25px;
+}
+
+.itemImageChart {
+    width: 280px;
+    position: absolute;
+    right: 10px;
+}
+
+.itemImageTable {
+    width: 800px;
+    float: left;
+}
+
+.itemTextEntry {
+    padding: 10px;
+    /*width: 200px;*/
+    margin-left: 20px;
+    float: left;
+    clear: left;
+}
+
+.itemTextEntryTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.itemTextEntryContent {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.itemTextEntryContentList {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+    .itemTextEntryContentList li {
+        line-height: 18px;
+    }
+
+.itemPriceList {
+    float: left;
+    margin-top: 143px;
+}
+
+    .itemPriceList .itemPriceImage {
+        border: 1px solid gray;
+        height: 19px;
+    }
+
+        .itemPriceList .itemPriceImage .itemPrice {
+            float: left;
+            height: 19px;
+            width: 45px;
+            background: url("../images/cartSmall.png") no-repeat center;
+        }
+
+#myCart {
+    float: left;
+    margin-top: 25px;
+}
+
+.itemRow {
+    float: left;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.simpleCart_items {
+    border: 1px solid green;
+    border-radius: 7px;
+    padding: 20px;
+    float: left;
+    clear: left;
+    width: 985px;
+}
+
+.item-price {
+}
+
+.item-decrement {
+    float: left;
+}
+
+.item-increment {
+    float: left;
+}
+
+.item-quantity {
+    float: left;
+}
+
+.item-total {
+    float: left;
+    clear: left;
+}
+
+.item-remove {
+    float: left;
+    clear: left;
+}
+
+.simpleCart_checkout {
+    clear: left;
+    float: left;
+}
+
+#firstItem {
+    border: 1px solid red;
+    height: 141px;
+    position: absolute;
+    width: 46px;
+    right: 176px;
+    top: 0;
+}
+
+.itemImageContainer {
+    position: relative;
+}

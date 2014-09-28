@@ -1,0 +1,12 @@
+submeniurile - alea di  acordeon sa fie ca taburi
+la comanda sa adaug field-uri optionale
+Q (debit)
+H (inaltime)
+Aplicatie - sa retin pagina aterioara de unde a venit. 
+Adaug pe server ultima pagina de unde a venit.
+Dispare partea de table si pun un test spre comanda
+Dispare tot ce tine de cosul de cumparaturi
+La comanda textul va fi Comentarii
+Toate paginile externe vor fi deschise in alt tab
+La prezentare firma pot sa copiez ce scrie pe site-ul oficial
+Meniul sa fie sub logo
