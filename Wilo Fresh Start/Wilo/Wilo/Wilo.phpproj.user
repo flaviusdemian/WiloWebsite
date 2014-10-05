@@ -3,5 +3,11 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
     <NameOfLastUsedPHPPublishProfile>Wilo</NameOfLastUsedPHPPublishProfile>
+    <StartAction>CurrentPage</StartAction>
+    <SpecificPageValue />
+    <StartUrlValue />
+    <PHPDebugging>True</PHPDebugging>
+    <JsDebugging>False</JsDebugging>
+    <SilverlightDebugging>False</SilverlightDebugging>
   </PropertyGroup>
 </Project>

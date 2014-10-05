@@ -2,14 +2,16 @@
 <html>
 <head>
     <title><?php echo $pagetitle?></title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
 
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-validate.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script type="text/javascript" src="js/simpleCart.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
 
     <!--[if lt IE 8]>
          <style type="text/css">
@@ -22,7 +24,7 @@
 </head>
 <body>
     <div id="sitewrapper" class="clearfix">
-        <section class="user">
+        <section class="logos">
             <a id="homeLink" href="/" title="acasa">
                 <div id="logoContainer">
                     <div id="flashLogo">
@@ -55,17 +57,16 @@
                         </object>
                     </div>
                     <div id="binonm">
-                        <img src="images/logo.png" />
+                        <img src="images/binom.png" />
                     </div>
-                    <div id="logo2">
-                        <img src="images/logo2.png" />
-                    </div>
-                    <div id="logo3">
-                        <img src="images/logo3.png" />
+                    <div id="wilo">
+                        <img src="images/wilo.png" />
                     </div>
                 </div>
             </a>
-            <div class="buttons">
+
+
+            <!--<div class="buttons">
                 <span class="button" style="padding: 8.5px 15px;">
                     <a href="#">Irigatii</a>
                 </span>
@@ -92,16 +93,28 @@
                 <span class="button" style="padding: 8.5px 15px;">
                     <a href="#" onclick="logicModule.loadPage('Comanda.php');">Comanda Shortcut</a>
                 </span>
-            </div>
+            </div>-->
         </section>
-        <div id="content">
+
+        <!--menu here-->
+        <?php 
+        //Assign all Page Specific variables
+        $pagemaincontent = ob_get_contents();
+        ob_end_clean();
+        //Apply the template
+        include("masterPages/menu.php");
+        $menuContent = ob_get_contents();
+        ob_end_clean();
+        ?>
+
+        <div id="content clearfix">
             <?php
-            echo $pagemaincontent; 
+            echo $pageMainContent; 
             ?>
         </div>
         <div id="footer">
 <?php
-echo $pagefootercontent;
+echo $pageFooterContent;
 ?>
 
 

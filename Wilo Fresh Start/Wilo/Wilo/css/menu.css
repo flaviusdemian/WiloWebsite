@@ -51,7 +51,11 @@
 @media only screen and (min-width : 580px) {
     /* Styles */
     .dropdown:hover .dropdown-menu {
-        display: block; 
+        display: block;
     }
 }
 
+.dropdown-menu > li > a {
+    color: #777;
+    background-color: #222222  
+}

@@ -8,6 +8,13 @@
     <RootNamespace>Wilo</RootNamespace>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <AssemblyName>Wilo</AssemblyName>
+    <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+    <Server>PHPDev</Server>
+    <PublishEvent>None</PublishEvent>
+    <PHPDevAutoPort>False</PHPDevAutoPort>
+    <PHPDevPort>56766</PHPDevPort>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <IISProjectUrl>http://localhost:56766/</IISProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -44,7 +51,6 @@
     <Folder Include="images\Pompe\Tabele\" />
     <Folder Include="js\" />
     <Folder Include="masterPages\" />
-    <Folder Include="Scripts\" />
     <Folder Include="Sql\" />
   </ItemGroup>
   <ItemGroup>
@@ -85,7 +91,6 @@
     <Content Include="css\images\ui-icons_d8e7f3_256x240.png" />
     <Content Include="css\images\ui-icons_f9bd01_256x240.png" />
     <Content Include="css\images\ui-icons_ffffff_256x240.png" />
-    <Content Include="css\jquery-ui-1.10.3.custom.css" />
     <Content Include="css\menu.css" />
     <Content Include="css\pages\Command.css" />
     <Content Include="css\pages\Contact.css" />
@@ -99,9 +104,8 @@
     <Content Include="images\cart.png" />
     <Content Include="images\cartSmall.png" />
     <Content Include="images\consultanta.png" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\logo2.png" />
-    <Content Include="images\logo3.png" />
+    <Content Include="images\binom.png" />
+    <Content Include="images\wilo.png" />
     <Content Include="images\Pompe\Grafice\wilo_stratos_pico.png" />
     <Content Include="images\Pompe\Tabele\wilo_stratos_pico.png" />
     <Content Include="images\Pompe\Wilo_Stratos_ECO_BMS.png" />
@@ -112,12 +116,16 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
+    <Content Include="masterPages\menu.php" />
     <Content Include="menu.html" />
     <Content Include="packages.config" />
     <Content Include="js\jquery-2.1.1.intellisense.js" />
     <Content Include="js\jquery-2.1.1.js" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\jquery-2.1.1.min.map" />
+    <Content Include="js\jquery.validate-vsdoc.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\jquery.validate.min.js" />
     <Content Include="Sql\InstructiuniTavi_BD.sql" />
     <Content Include="Sql\wilo.sql" />
   </ItemGroup>
